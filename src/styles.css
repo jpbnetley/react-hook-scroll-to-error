@@ -1,0 +1,21 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+}
+
+.inputGroup {
+  display: flex;
+  flex-direction: column;
+  padding: 0.5em;
+}
+
+.layout {
+  margin: 2em;
+  max-width: 60em;
+}
+
+.control {
+  display: flex;
+  justify-content: center;
+  margin: 1em;
+}

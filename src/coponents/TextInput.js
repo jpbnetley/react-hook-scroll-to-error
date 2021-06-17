@@ -3,9 +3,6 @@ import { ErrorMessage } from "@hookform/error-message";
 
 const TextInput = ({ name = "", label = "", placeholder }) => {
   const { register, errors } = useFormContext();
-  console.log(name);
-
-  console.error(errors);
 
   return (
     <div className="inputGroup">

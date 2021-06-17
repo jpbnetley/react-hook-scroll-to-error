@@ -9,7 +9,9 @@ const Form = (props) => {
     resolver: yupResolver(validationSchema)
   });
 
-  const { handleSubmit } = methods;
+  const { handleSubmit, errors } = methods;
+
+  console.error(errors)
 
   const onSubmit = (data) => console.log(data);
 

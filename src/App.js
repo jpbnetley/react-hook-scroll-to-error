@@ -11,6 +11,14 @@ export default function App() {
         <TextInput name="name" label="Name" />
         <TextInput name="surname" label="Surname" />
         <NumberInput name="age" label="Age" />
+        <NumberInput name="1" label="1" />
+        <NumberInput name="2" label="2" />
+        <NumberInput name="3" label="3" />
+        <NumberInput name="4" label="4" />
+        <NumberInput name="5" label="5" />
+        <NumberInput name="6" label="6" />
+        <NumberInput name="7" label="7" />
+        <NumberInput name="8" label="8" />
       </Form>
     </>
   );

@@ -1,2 +1,3 @@
 # react-hook-scroll-to-error
-Created with CodeSandbox
+
+Goal is to have a proof of concept ready for scrolling to an error of an input

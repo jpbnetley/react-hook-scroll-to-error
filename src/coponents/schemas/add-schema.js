@@ -2,55 +2,56 @@ import { string, object, number } from "yup";
 const addSchema = object().shape({
   name: string().required(),
   surname: string().required(),
+  middleName: string().optional(),
   age: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  1: number()
+  age1: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  2: number()
+  age2: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  3: number()
+  age3: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  4: number()
+  age4: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  5: number()
+  age5: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  6: number()
+  age6: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  7: number()
+  age7: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  8: number()
+  age8: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  9: number()
+  age9: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  10: number()
+  age10: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  11: number()
+  age11: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value)),
-  12: number()
+  age12: number()
     .required()
     .nullable()
     .transform((value) => (isNaN(value) ? undefined : value))

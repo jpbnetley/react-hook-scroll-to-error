@@ -3,7 +3,7 @@ import { yupResolver } from "@hookform/resolvers/yup";
 import { object } from "yup";
 
 const Form = (props) => {
-  const { validationSchema = object({}) } = props;
+  const { validationSchema = object({}), onSubmit = () => {} } = props;
 
   const methods = useForm({
     resolver: yupResolver(validationSchema)
@@ -11,9 +11,7 @@ const Form = (props) => {
 
   const { handleSubmit, errors } = methods;
 
-  console.error(errors);
-
-  const onSubmit = (data) => console.log(data);
+  Object.keys(errors).length && console.error(errors);
 
   return (
     <FormProvider {...methods}>

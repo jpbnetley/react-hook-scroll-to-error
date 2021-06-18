@@ -23,3 +23,20 @@
 .error {
   color: red;
 }
+
+.withError {
+  display: flex;
+  justify-content: space-between;
+}
+
+div > label {
+  font-size: 2em;
+}
+
+div.error > label label {
+  font-size: 4em;
+}
+
+input {
+  padding: 1em;
+}

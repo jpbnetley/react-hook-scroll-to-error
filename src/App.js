@@ -8,19 +8,21 @@ export default function App() {
   return (
     <>
       <Form validationSchema={addSchema}>
-        <TextInput name="name" label="Name" />
-        <TextInput name="surname" label="Surname" />
-        <NumberInput name="age" label="Age" />
-        <NumberInput name="1" label="1" />
-        <NumberInput name="2" label="2" />
-        <NumberInput name="3" label="3" />
-        <NumberInput name="4" label="4" />
-        <NumberInput name="5" label="5" />
-        <NumberInput name="6" label="6" />
-        <NumberInput name="7" label="7" />
-        <NumberInput name="8" label="8" />
-        <NumberInput name="9" label="9" />
-        <NumberInput name="10" label="10" />
+        <TextInput name="name" label="Name" required />
+        <TextInput name="surname" label="Surname" required />
+        <NumberInput name="age" label="Age" required />
+        <NumberInput name="1" label="1" required />
+        <NumberInput name="2" label="2" required />
+        <NumberInput name="3" label="3" required />
+        <NumberInput name="4" label="4" required />
+        <NumberInput name="5" label="5" required />
+        <NumberInput name="6" label="6" required />
+        <NumberInput name="7" label="7" required />
+        <NumberInput name="8" label="8" required />
+        <NumberInput name="9" label="9" required />
+        <NumberInput name="10" label="10" required />
+        <NumberInput name="11" label="11" required />
+        <NumberInput name="12" label="12" required />
       </Form>
     </>
   );

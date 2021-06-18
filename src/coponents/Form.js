@@ -11,7 +11,7 @@ const Form = (props) => {
 
   const { handleSubmit, errors } = methods;
 
-  console.error(errors)
+  console.error(errors);
 
   const onSubmit = (data) => console.log(data);
 

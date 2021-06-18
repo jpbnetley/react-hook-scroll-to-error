@@ -6,12 +6,12 @@ const TextInput = ({ name = "", label = "", placeholder }) => {
 
   return (
     <div className="inputGroup">
+      <label htmlFor={name}>{label}</label>
       <ErrorMessage
         errors={errors}
         name={name}
-        render={({ message }) => <label>{message}</label>}
+        render={({ message }) => <label className="error">{message}</label>}
       />
-      <label htmlFor={name}>{label}</label>
       <input
         type="text"
         name={name}

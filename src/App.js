@@ -19,6 +19,8 @@ export default function App() {
         <NumberInput name="6" label="6" />
         <NumberInput name="7" label="7" />
         <NumberInput name="8" label="8" />
+        <NumberInput name="9" label="9" />
+        <NumberInput name="10" label="10" />
       </Form>
     </>
   );
